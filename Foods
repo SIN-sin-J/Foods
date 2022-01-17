@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+	printf("Menu : \n1. Podi Idly \n2. Masal dosai \n3. Chilli parotta \n4. Sambar vadai \n5. Oothappam");
+	printf("\nChoose your feast :");
+	int num=0;
+	scanf("%d",&num);
+	switch(num)
+	{
+	  case 1 : printf("Your pick : Podi idly \nPrice ₹45");
+	  break;
+	  case 2 : printf("Your pick : Masal dosai \nPrice ₹60");
+	  break;
+	  case 3 : printf("Your pick : Chilli parottra \nPrice ₹40");
+	  break;
+	  case 4 : printf("Your pick : Sambar vadai \nPrice ₹35");
+	  break;
+	  case 5 : printf("Your pick : Oothapam \nPrice ₹50");
+	  break;
+	  default : printf("Not available");
+	}
+	printf("\nWonderful choice! Welcome");
+	return 0;
+}
+	      
+	
+	
